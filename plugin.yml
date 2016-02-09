@@ -13,6 +13,9 @@ commands:
     heal:
     description: Gives you Instant Health.
     permission: fe.heal
+    strong:
+    description: Gives you Strength.
+    permission: fe.strong
 permissions:
   fe:
     default: op
@@ -27,3 +30,6 @@ children:
   fe.heal:
     default: op
     description: Healing Permission.
+   fe.strong:
+    default: op
+    description: Strong Permission.

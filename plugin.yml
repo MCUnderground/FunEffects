@@ -3,13 +3,10 @@ main: lostteam\funeffects\Main
 author: Lost Team
 version: 1.0.0
 api: 1.4.0
-
 commands:
-    sick:
-          description: Give's a Player Sickness A.K.A Nausea.
-          usage: "/sick"
-          permission: sick.cmd
-    flash:
-          description: Make's a Player Faster than the fastest!
-          usage: "/flash"
-          permission: flash.cmd
+   flash:
+    description: Gives you speed.
+    permission: fe.flash
+permissions:
+  fe.flash:
+    default: op

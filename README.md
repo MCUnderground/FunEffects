@@ -1,2 +1,2 @@
 # FunEffects
-An plugin
+A plugin

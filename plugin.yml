@@ -7,12 +7,17 @@ commands:
    flash:
     description: Gives you speed.
     permission: fe.flash
-permissions:
-  fe.flash:
-    default: op
    sick:
     description: Gives you nausea.
     permission: fe.sick
 permissions:
+  fe:
+    default: op
+     description: Main permission.
+children:
+  fe.flash:
+    default: op
+    description: Flash permission.
   fe.sick:
     default: op
+    description: Sick permission.

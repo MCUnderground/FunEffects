@@ -29,6 +29,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(1); 
         $effect->setVisible(flase); 
         $effect->setDuration(500); 
+        $sender->sendPopup("You got fast!");
                 }
       
 
@@ -40,6 +41,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(9); 
         $effect->setVisible(flase); 
         $effect->setDuration(500); 
+        $sender->sendPopup("You got sick!");
                 }
          break;
 
@@ -56,5 +58,3 @@ class Main extends PluginBase implements Listener {
     }
 
 }
-
-

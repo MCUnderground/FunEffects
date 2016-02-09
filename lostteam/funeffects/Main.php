@@ -31,6 +31,16 @@ class Main extends PluginBase implements Listener {
         $effect->setDuration(500); 
                 }
                 break;
+           case "sick":
+           if (isset($args[0])) {
+                    $sender->sendMessage("Use /sick");
+                }
+                else {
+                    $effect = Effect::getEffect(1); 
+        $effect->setVisible(flase); 
+        $effect->setDuration(500); 
+                }
+
         }
 
     }

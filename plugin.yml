@@ -9,3 +9,7 @@ commands:
           description: Give's a Player Sickness A.K.A Nausea.
           usage: "/sick"
           permission: sick.cmd
+    flash:
+          description: Make's a Player Faster than the fastest!
+          usage: "/flash"
+          permission: flash.cmd

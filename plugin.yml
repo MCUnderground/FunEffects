@@ -24,6 +24,6 @@ children:
   fe.sick:
     default: op
     description: Sick permission.
-  fe.heal
+  fe.heal:
     default: op
-    description: Heal Permission
+    description: Healing Permission.

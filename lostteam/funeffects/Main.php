@@ -43,6 +43,16 @@ class Main extends PluginBase implements Listener {
         $effect->setDuration(500); 
         $sender->sendPopup("You got sick!");
                 }
+          case "heal":
+           if (isset($args[0])) {
+                    $sender->sendMessage("Use /heal");
+                }
+                else {
+                    $effect = Effect::getEffect(10); 
+        $effect->setVisible(flase); 
+        $effect->setDuration(500); 
+        $sender->sendPopup("You are healing!");
+                }
          break;
 
         }

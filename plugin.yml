@@ -10,6 +10,9 @@ commands:
    sick:
     description: Gives you nausea.
     permission: fe.sick
+    heal:
+    description: Gives you Instant Health.
+    permission: fe.heal
 permissions:
   fe:
     default: op
@@ -21,3 +24,6 @@ children:
   fe.sick:
     default: op
     description: Sick permission.
+   fe.heal
+    default: op
+    description: Heal Permission

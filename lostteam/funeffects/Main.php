@@ -2,11 +2,6 @@
 
 namespace lostteam\funeffects;
 
-/*
-<?php
-
-namespace lostteam\funeffects;
-
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
@@ -51,4 +46,3 @@ class Main extends PluginBase implements Listener {
 }
 
 
-*/

@@ -27,8 +27,8 @@ class Main extends PluginBase implements Listener {
                 }
                 else {
                     $effect = Effect::getEffect(1); 
-        $effect->setVisible(false); 
-        $effect->setDuration(500); 
+$effect->setVisible(false); 
+$effect->setDuration(500); 
         $sender->sendPopup("You got fast!");
                 }
       
@@ -39,8 +39,8 @@ class Main extends PluginBase implements Listener {
                 }
                 else {
                     $effect = Effect::getEffect(9); 
-        $effect->setVisible(false); 
-        $effect->setDuration(500); 
+$effect->setVisible(false); 
+$effect->setDuration(500); 
         $sender->sendPopup("You got sick!");
                 }
           case "heal":
@@ -49,9 +49,19 @@ class Main extends PluginBase implements Listener {
                 }
                 else {
                     $effect = Effect::getEffect(10); 
-        $effect->setVisible(false); 
-        $effect->setDuration(500); 
+$effect->setVisible(false);
+$effect->setDuration(500); 
         $sender->sendPopup("You are healing!");
+                }
+                case "hulk":
+           if (isset($args[0])) {
+                    $sender->sendMessage("Use /hulk");
+                }
+                else {
+                    $effect = Effect::getEffect(5); 
+$effect->setVisible(false);
+$effect->setDuration(500); 
+        $sender->sendPopup("You are strong!");
                 }
          break;
 

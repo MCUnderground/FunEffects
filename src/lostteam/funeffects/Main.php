@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener {
 {
         switch($command->getName()){
             case "flash":
-                if (isset($args[0])) {
+                if (!isset($args[0])) {
                     $sender->sendMessage("Use /flash");
                 }
                 else {

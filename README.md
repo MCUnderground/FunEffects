@@ -1,2 +1,2 @@
 # FunEffects
-A plugin
+A plugin for ImagicalMine

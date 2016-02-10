@@ -16,6 +16,9 @@ commands:
     hulk:
     description: Gives you Strength.
     permission: fe.hulk
+    snail:
+    description: Gives you slowness.
+    permission: fe.snail
 permissions:
   fe:
     default: op
@@ -33,3 +36,6 @@ children:
    fe.hulk:
     default: op
     description: Strong Permission.
+   fe.snail:
+    default: op
+    description: Slow Permission.

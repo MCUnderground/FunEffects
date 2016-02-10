@@ -4,19 +4,19 @@ author: Lost Team
 version: 1.0.0
 api: 1.4.0
 commands:
-   flash:
-    description: Gives you speed.
-    permission: fe.flash
-   sick:
-    description: Gives you nausea.
-    permission: fe.sick
-    heal:
-    description: Gives you Instant Health.
-    permission: fe.heal
-    hulk:
-    description: Gives you Strength.
-    permission: fe.hulk
-    snail:
+ flash:
+  description: Gives you speed.
+  permission: fe.flash
+ sick:
+  description: Gives you nausea.
+  permission: fe.sick
+ heal:
+  description: Gives you Instant Health.
+  permission: fe.heal
+ hulk:
+  description: Gives you Strength.
+  permission: fe.hulk
+ snail:
     description: Gives you slowness.
     permission: fe.snail
 permissions:

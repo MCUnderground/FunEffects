@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(1); 
 				    $effect->setVisible(false); 
                     $effect->setDuration(500); 
-                    $sender->sendPopup("You got fast!");
+                    $sender->sendPopup("Fast mode on!");
                 }
       
            case "sick":
@@ -44,7 +44,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(9); 
 					$effect->setVisible(false); 
 					$effect->setDuration(500); 
-       			    $sender->sendPopup("You got sick!");
+       			    $sender->sendPopup("Seems like you're getting a cold!");
                 }
            case "heal":
            if (!isset($args[0])) {
@@ -54,7 +54,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(10); 
 					$effect->setVisible(false);
 					$effect->setDuration(500); 
-        			$sender->sendPopup("You are healing!");
+        			$sender->sendPopup("You've been healed.");
                 }
                 case "hulk":
            		if(!isset($args[0])) {
@@ -64,7 +64,7 @@ class Main extends PluginBase implements Listener {
                       $effect = Effect::getEffect(5); 
 			          $effect->setVisible(false);
 			          $effect->setDuration(500); 
-		        $sender->sendPopup("You are strong!");
+		        $sender->sendPopup("You're strong like hulk!");
                 }
                 case "snail":
            		if(!isset($args[0])){
@@ -74,12 +74,12 @@ class Main extends PluginBase implements Listener {
 				$effect = Effect::getEffect(2);
 				$effect->setVisible(false);
 				$effect->setDuration(500);
-		        $sender->sendPopup("You are slow!");
+		        $sender->sendPopup("You're a pretty slow snail!");
 			}
             break;
         }
     }
     public function onDisable(){
-        $this->getLogger()->info("[FunEffects] Disabled!");
+        $this->getLogger()->info("[FunEffects] Disabled, did the server stop?");
     }
 }

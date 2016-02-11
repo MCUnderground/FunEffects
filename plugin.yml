@@ -2,7 +2,7 @@ name: FunEffects
 main: lostteam\funeffects\Main
 author: Lost Team
 version: 1.0.0
-api: 1.4.0
+api: 1.14.0
 commands:
  flash:
   description: Gives you speed.

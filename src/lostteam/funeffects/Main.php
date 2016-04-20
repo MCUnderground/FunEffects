@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(1); 
 				    $effect->setVisible(false); 
                     $effect->setDuration(500); 
-                    $sender->sendPopup("You got fast!");
+                    $sender->sendPopup("You became flash!");
                 }
       
            case "sick":
@@ -54,7 +54,7 @@ class Main extends PluginBase implements Listener {
                     $effect = Effect::getEffect(10); 
 					$effect->setVisible(false);
 					$effect->setDuration(500); 
-        			$sender->sendPopup("You are healing!");
+        			$sender->sendPopup("You are now healing!");
                 }
                 case "hulk":
            		if(!isset($args[0])) {
@@ -64,7 +64,7 @@ class Main extends PluginBase implements Listener {
                       $effect = Effect::getEffect(5); 
 			          $effect->setVisible(false);
 			          $effect->setDuration(500); 
-		        $sender->sendPopup("You are strong!");
+		        $sender->sendPopup("You are now strong as hulk!");
                 }
                 case "snail":
            		if(!isset($args[0])){
@@ -74,7 +74,7 @@ class Main extends PluginBase implements Listener {
 				$effect = Effect::getEffect(2);
 				$effect->setVisible(false);
 				$effect->setDuration(500);
-		        $sender->sendPopup("You are slow!");
+		        $sender->sendPopup("You are slow as a snail!");
 			}
             break;
         }
